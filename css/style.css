@@ -6,8 +6,8 @@
 
 :root {
     --bgcolor-green: #1abc9c;
-    --bgcolor-header: #2c3e50; /* sta anche nel superfooter*/
-    --bgcolor-footer: #3a546d;
+    --bgcolor-footer: #2c3e50; /* sta anche nel superfooter*/
+    --bgcolor-header: #3a546d;
 }
 
 /* ===============
@@ -67,4 +67,12 @@
 
    #portfolio .col-12 {
       border: 3px solid black;
+   }
+
+   /* ==========
+      COPYRIGHT
+      ========== */
+
+   #copyright p {
+      margin-bottom: 0;
    }
