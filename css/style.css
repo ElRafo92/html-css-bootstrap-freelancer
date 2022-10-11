@@ -27,3 +27,40 @@
    .ms-bgcolor-green {
     background-color: var(--bgcolor-green);
    }
+
+   /* ===============
+   ===============
+    MY STYLE
+   ===============
+   ===============*/
+
+   /* ==========
+      HEADER NAV
+      ========== */
+   .ms-nav ul {
+      display: flex;
+      justify-content: end;
+      list-style: none;
+      margin-bottom: 0;
+      padding-left: 0;
+   }
+   .ms-nav li {
+      padding: 0 0.5rem;
+   }
+
+   .ms-nav a {
+      color: white;
+      text-decoration: none;
+   }
+
+   .ms-nav button {
+      border-style: none;
+   }
+
+   /* ==========
+      HEADER LOGO
+      ========== */
+
+   #logo {
+      color: white;
+   }
