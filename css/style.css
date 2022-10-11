@@ -1,0 +1,29 @@
+/* ===============
+   ===============
+      VARIABLES
+   ===============
+   ===============*/
+
+:root {
+    --bgcolor-green: #1abc9c;
+    --bgcolor-header: #2c3e50; /* sta anche nel superfooter*/
+    --bgcolor-footer: #3a546d;
+}
+
+/* ===============
+   ===============
+    COLORS & BG
+   ===============
+   ===============*/
+
+   .ms-bgcolor-header {
+    background-color: var(--bgcolor-header);
+   }
+
+   .ms-bgcolor-footer {
+    background-color: var(--bgcolor-footer);
+   }
+
+   .ms-bgcolor-green {
+    background-color: var(--bgcolor-green);
+   }
