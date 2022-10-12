@@ -65,9 +65,27 @@
       color: white;
    }
 
-   #portfolio .col-12 {
+   /* #portfolio .col-12 {
       border: 3px solid black;
-   }
+   } */
+
+   /* =================
+      SECTION PORTFOLIO
+      ================= */
+
+      /* .ms-container {
+         max-width: 500px;
+         margin: auto;
+         padding: 0 1.25rem;
+      }
+
+      .ms-container-small {
+         max-width: 780px;
+         margin: auto;
+         padding: 0 1.25rem;
+      } */
+
+
 
    /* ==========
       COPYRIGHT
