@@ -53,10 +53,6 @@
       text-decoration: none;
    }
 
-   .ms-nav button {
-      border-style: none;
-   }
-
    /* ==========
       HEADER LOGO
       ========== */
@@ -65,9 +61,26 @@
       color: white;
    }
 
-   /* #portfolio .col-12 {
-      border: 3px solid black;
-   } */
+   /* ==========
+      HERO IMG
+      ========== */
+
+      .ms-img {
+         width: 20%;
+         min-width: 9.125rem;
+         max-height: 12.4375rem ;
+         min-height: 9.125rem;
+      }
+
+   /* ==========
+      HERO F-A
+      ========== */
+
+      .ms-with-10 {
+       width: 10%;
+       color: white;
+       list-style: inside;
+      }
 
    /* =================
       SECTION PORTFOLIO
