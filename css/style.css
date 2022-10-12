@@ -28,6 +28,11 @@
     background-color: var(--bgcolor-green);
    }
 
+   .ms-color-green {
+      color: var(--bgcolor-green);
+
+   }
+
    /* ===============
    ===============
     MY STYLE
@@ -44,6 +49,16 @@
       margin-bottom: 0;
       padding-left: 0;
    }
+
+   .ms-nav-center ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-bottom: 0;
+      padding-left: 0;
+   }
+
+
    .ms-nav li {
       padding: 0 0.5rem;
    }
@@ -90,22 +105,6 @@
       }
 
    /* =================
-      SECTION PORTFOLIO
-      ================= */
-
-      /* .ms-container {
-         max-width: 500px;
-         margin: auto;
-         padding: 0 1.25rem;
-      }
-
-      .ms-container-small {
-         max-width: 780px;
-         margin: auto;
-         padding: 0 1.25rem;
-      } */
-
-   /* =================
       SECTION CONTACT
       ================= */
 
@@ -122,10 +121,32 @@
          border-bottom: 1px solid #ced4da;
          appearance: none;
        }
+
+   /* =================
+      SECTION FOOTER
+      ================= */
+
+      .circle {
+         height: 3.125rem;
+         width: 3.125rem;
+         border: 1px solid white;
+         border-radius: 50%;
+         margin: 0.625rem;
+
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
    /* ==========
       COPYRIGHT
       ========== */
 
    #copyright p {
       margin-bottom: 0;
+      font-size: small;
    }
+
+#copyright i {
+   font-size: smaller;
+}
