@@ -127,15 +127,16 @@
       ================= */
 
       .circle {
-         height: 3.125rem;
-         width: 3.125rem;
-         border: 1px solid white;
+         height: 2.5rem;
+         width: 2.5rem;
+         border: 0.0625rem solid white;
          border-radius: 50%;
          margin: 0.625rem;
 
          display: flex;
          justify-content: center;
          align-items: center;
+         flex-shrink: 0;
       }
 
    /* ==========
@@ -147,6 +148,32 @@
       font-size: small;
    }
 
-#copyright i {
-   font-size: smaller;
-}
+   #copyright i {
+      font-size: smaller;
+   }
+
+   /* ==========
+       STELLA
+      ========== */
+
+   .separator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: inherit;
+      margin: 30%;
+   }
+
+   .separator::before,.separator::after {
+      content: "";
+      display: block;
+      max-width: 9.375rem;
+      width: 100%;
+      height: 0.1875rem;
+      background-color: currentColor;
+      border-radius: 3px;
+   }
+
+   .separator i {
+      margin: 0.625rem;
+   }
